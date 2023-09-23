@@ -3,7 +3,7 @@ from genome_toolkit import genomeToolkit
 # creating an instance of our genomeToolkit class
 gt = genomeToolkit()
 
-seq = "gaattcaactagagggacgtattttatccctcctcaagcgactgccaactatggaccgcc"
+seq = "acgtgagcaagacgggcttgtggcgaagtacgtcctagttccagggtgctcagttaagttctcgcatgttcaaagtgttatatacaaacagaggaactaa"
 kmer = "aa"
 k_len = 3
 
