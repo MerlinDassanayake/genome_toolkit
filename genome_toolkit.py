@@ -47,7 +47,7 @@ class genomeToolkit:
             if kmer in kmer_frequencies:
                 kmer_frequencies[kmer] += 1
             else:
-                kmer_frequencies = 1
+                kmer_frequencies[kmer] = 1
         # 3. A variable to store the maximum value in the dictionary.
         highest_frequency = max(kmer_frequencies.values())
 
